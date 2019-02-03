@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <h1>Robots! Enter a Sentence for Analysis</h1>
+    <div class="row">
+    <div class="col-md-4"></div>
+        <div class="col-md-4">
+            {{ wtf.quick_form(form) }}
+            <h4>Disagree with our prediction? Consider <a href="{{ url_for('add_submission') }}">training our model!</a></h4>
+        </div>
+    <div class="col-md-4"></div>
+    </div>
+{% endblock %}

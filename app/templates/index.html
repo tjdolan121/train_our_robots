@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+
+{% block app_content %}
+    <div class="row content">
+        <div class="col-sm-6">
+            <div class="panel">
+                <div class="panel-header">
+                    <img src="static/robot.png">
+                    <h1>Robots:<br>Determine the Sentiment of a Human Sentence</h1>
+                </div>
+                <div class="panel-body">
+                    <h3><a href="{{ url_for('analyze') }}">Check it out!</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel">
+                <div class="panel-header">
+                    <img src="static/human.png">
+                    <h1>Humans:<br>Appease our Future Rulers by Training Our Model</h1>
+                </div>
+                <div class="panel-body">
+                    <h3><a href="{{ url_for('add_submission') }}">Add a Sentence!</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
