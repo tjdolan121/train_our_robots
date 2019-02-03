@@ -34,7 +34,7 @@ def load_user(id):
 
 class Submission(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    sentence = db.Column(db.String(500))
+    sentence = db.Column(db.String(256))
     is_good = db.Column(db.Boolean())
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
