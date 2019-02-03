@@ -26,8 +26,8 @@ STEP 7: Seed the database with starter data for the ML model: ```python setup.py
 
 STEP 8: Run server: ```flask run```
 
-STEP 10: Navigate to http://127.0.0.1:5000 in browser, create an account, and play around! <hr>
+STEP 10: Navigate to http://127.0.0.1:5000 in browser, create an account, and play around! 
 
-#### NOTE: I am trying to prepare this app for deployment to Heroku, so any help with that would be greatly appreciated!
+#### Commits to master are automatically pushed to the staging app, found here: https://intense-depths-98176.herokuapp.com/
 
 ### Feel free to message me if you have any questions!
