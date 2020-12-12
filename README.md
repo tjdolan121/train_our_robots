@@ -31,3 +31,10 @@ STEP 10: Navigate to http://127.0.0.1:5000 in browser, create an account, and pl
 #### Commits to master are automatically pushed to the staging app, found here: https://intense-depths-98176.herokuapp.com/
 
 ### Feel free to message me if you have any questions!
+
+To get up and running with Flask, I followed this amazing tutorial:
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
+
+The sentiment data came from here:
+https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences
+
